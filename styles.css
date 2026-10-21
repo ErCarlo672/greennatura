@@ -353,3 +353,7 @@ h2 { font-size: 36px; line-height: 40px; letter-spacing: -0.03em; }
 .btn--ghost { border-color: rgba(243, 237, 225, .35); color: var(--ink); background: transparent; }
 .btn--ghost:hover { border-color: var(--lime); color: var(--lime); }
 .footer .footer__bottom a { color: var(--lime); }
+
+/* Firma del diseñador en el pie */
+.credit a { color: var(--lime); text-decoration: none; border-bottom: 1px solid currentColor; transition: color .4s var(--ease); }
+.credit a:hover { color: var(--lime-2); }
