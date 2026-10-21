@@ -501,10 +501,11 @@
       }
 
       // Rótulos tipo despiece, bajo el bloque
-      var labels = g.mobile
+      var short = g.mobile || sw < 560;
+      var labels = short
         ? [['Zahorra', 0.12, gravelTop + 6, e1], ['Malla', 0.38, top + 1, e2], ['Césped', 0.64, turfY + 2, e3], ['Sílice', 0.88, turfY + 2, e4]]
         : [['Base de zahorra', 0.1, gravelTop + 8, e1], ['Malla antihierbas', 0.37, top + 1, e2], ['Césped 40/50 mm', 0.63, turfY + 2, e3], ['Arena de sílice', 0.88, turfY + 2, e4]];
-      ctx.font = '600 ' + (g.mobile ? 12 : 14) + 'px Manrope, system-ui, sans-serif';
+      ctx.font = '600 ' + (short ? 12 : 14) + 'px Manrope, system-ui, sans-serif';
       ctx.textAlign = 'center'; ctx.textBaseline = 'top';
       labels.forEach(function (L) {
         var a2 = seg(L[3], 0.35, 0.8); if (a2 <= 0) return;
