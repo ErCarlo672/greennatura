@@ -357,3 +357,42 @@ h2 { font-size: 36px; line-height: 40px; letter-spacing: -0.03em; }
 /* Firma del diseñador en el pie */
 .credit a { color: var(--lime); text-decoration: none; border-bottom: 1px solid currentColor; transition: color .4s var(--ease); }
 .credit a:hover { color: var(--lime-2); }
+
+/* ---------- Catálogo: precio a consultar ---------- */
+.row__price--ask { font-size: 16px; line-height: 24px; color: var(--lime); }
+@media (min-width: 900px) { .row__price--ask { font-size: 18px; line-height: 28px; } }
+
+/* ---------- Instalaciones ---------- */
+.inst { display: grid; gap: 48px; }
+.inst__group { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 700px) { .inst__group { grid-template-columns: repeat(2, minmax(0, 1fr)); } .inst__label { grid-column: 1 / -1; } }
+@media (min-width: 1000px) { .inst__group { grid-template-columns: 180px repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start; } .inst__label { grid-column: auto; } }
+.inst__label span { display: inline-block; padding: 8px 16px; border-radius: 999px; background: var(--lime); color: var(--bg); font-weight: 600; font-size: 14px; line-height: 20px; }
+.inst__card { display: flex; flex-direction: column; background: var(--bg); border: 1px solid var(--faint); border-radius: var(--r-xl); overflow: hidden; transition: border-color .5s var(--ease), transform .5s var(--ease); }
+.inst__card:hover { border-color: rgba(197, 234, 90, .5); transform: translateY(-4px); }
+.inst__card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.inst__body { padding: 24px; display: grid; gap: 8px; }
+.inst__body h3 { font-size: 24px; line-height: 32px; }
+.inst__motto { font-size: 14px; line-height: 20px; font-weight: 600; color: var(--gold); }
+.inst__body p:last-child { color: var(--muted); font-size: 14px; line-height: 20px; }
+
+/* ---------- Antes y después ---------- */
+.ba { display: grid; gap: 24px; }
+@media (min-width: 900px) { .ba { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.ba__item { margin: 0; display: grid; gap: 12px; }
+.ba__item figcaption { font-size: 14px; line-height: 20px; color: var(--muted); }
+.ba__item figcaption strong { color: var(--lime); }
+.ba__compare { position: relative; aspect-ratio: 4 / 3; border-radius: var(--r-xl); overflow: hidden; background: var(--bg-3); }
+.ba__compare img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.ba__before { position: absolute; inset: 0; clip-path: inset(0 calc(100% - var(--pos, 50%)) 0 0); }
+.ba__tag { position: absolute; top: 16px; z-index: 2; padding: 4px 12px; border-radius: 999px; background: rgba(19, 18, 9, .8); color: var(--ink); font-size: 12px; line-height: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
+.ba__tag--l { left: 16px; }
+.ba__tag--r { right: 16px; background: var(--lime); color: var(--bg); }
+.ba__handle { position: absolute; top: 0; bottom: 0; left: var(--pos, 50%); z-index: 2; width: 2px; background: var(--lime); transform: translateX(-1px); pointer-events: none; }
+.ba__handle i { position: absolute; top: 50%; left: 50%; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: var(--lime); color: var(--bg); font-size: 20px; transform: translate(-50%, -50%); }
+.ba__range { position: absolute; inset: 0; z-index: 3; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; }
+.ba__compare:focus-within .ba__handle i { outline: 2px solid var(--ink); outline-offset: 2px; }
+.ba__steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; aspect-ratio: 4 / 3; }
+.ba__steps li { position: relative; border-radius: var(--r-lg); overflow: hidden; background: var(--bg-3); }
+.ba__steps img { width: 100%; height: 100%; object-fit: cover; }
+.ba__steps span { position: absolute; left: 8px; bottom: 8px; padding: 4px 8px; border-radius: 999px; background: rgba(19, 18, 9, .85); font-size: 12px; line-height: 16px; font-weight: 600; }

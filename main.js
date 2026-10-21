@@ -308,6 +308,17 @@
     });
   }
 
+  /* ---------- Antes y después: deslizador ---------- */
+  function initCompare() {
+    $$('.ba__compare').forEach(function (box) {
+      var range = box.querySelector('.ba__range');
+      if (!range) return;
+      function update() { box.style.setProperty('--pos', range.value + '%'); }
+      range.addEventListener('input', update);
+      update();
+    });
+  }
+
   function initYear() { var y = $('#year'); if (y) y.textContent = new Date().getFullYear(); }
 
   function boot() {
@@ -320,6 +331,7 @@
     safe(initModelLinks, 'modelLinks');
     safe(initCalc, 'calc');
     safe(initContact, 'contact');
+    safe(initCompare, 'compare');
     safe(initYear, 'year');
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
