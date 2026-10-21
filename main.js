@@ -542,6 +542,8 @@
       return;
     }
     gsap.registerPlugin(ST);
+    // En iOS la barra de direcciones cambia el alto al hacer scroll: no recalcular por eso (evita saltos)
+    ST.config({ ignoreMobileResize: true });
     doc.classList.add('motion');
 
     // Escena = sección alta con un bloque sticky; el scroll da un progreso 0..1 suavizado
