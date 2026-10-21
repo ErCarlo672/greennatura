@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Página no encontrada · GREENNATURA</title>
   <meta name="robots" content="noindex">
-  <!-- La 404 se sirve en cualquier profundidad: fijamos la base según dónde esté publicada la web -->
-  <script>document.write('<base href="' + (location.pathname.indexOf('/greennatura/') === 0 ? '/greennatura/' : '/') + '">');</script>
+  <!-- La 404 se sirve en cualquier profundidad: en GitHub Pages la web vive en /<repositorio>/, en Hostinger en la raíz -->
+  <script>(function () { var seg = location.pathname.split('/')[1]; var base = /\.github\.io$/.test(location.hostname) && seg ? '/' + seg + '/' : '/'; document.write('<base href="' + base + '">'); })();</script>
   <link rel="icon" type="image/png" href="favicon.png?v=20261021">
   <link rel="stylesheet" href="lib/phosphor/style.css?v=20261021">
   <link rel="stylesheet" href="styles.css?v=20261021">
