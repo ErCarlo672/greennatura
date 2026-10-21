@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GREENNATURA · Césped artificial reciclado desde 4 €/m² con envío a toda España</title>
   <meta name="description" content="Venta e instalación de césped artificial nuevo y reciclado. Desde 4 €/m², envíos a toda España y pago contrarreembolso. Presupuesto al instante por WhatsApp: 634 287 740.">
-  <meta name="theme-color" content="#123F26">
+  <meta name="theme-color" content="#131209">
   <link rel="canonical" href="https://greennatura.es/">
 
   <meta property="og:type" content="website">
@@ -16,13 +16,13 @@
   <meta property="og:image" content="https://greennatura.es/assets/img/og-cover.jpg">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" type="image/png" href="favicon.png?v=20261021-v1">
-  <link rel="apple-touch-icon" href="assets/img/og-icon.png?v=20261021-v1">
-  <link rel="preload" href="lib/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/img/hero.webp" as="image">
-  <link rel="stylesheet" href="lib/phosphor/style.css?v=20261021-v1">
-  <link rel="stylesheet" href="lib/phosphor/fill.css?v=20261021-v1">
-  <link rel="stylesheet" href="styles.css?v=20261021-v1">
+  <link rel="icon" type="image/png" href="favicon.png?v=20261021-v1b">
+  <link rel="apple-touch-icon" href="assets/img/og-icon.png?v=20261021-v1b">
+  <link rel="preload" href="lib/fonts/poppins-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/img/malaga-cf.webp" as="image">
+  <link rel="stylesheet" href="lib/phosphor/style.css?v=20261021-v1b">
+  <link rel="stylesheet" href="lib/phosphor/fill.css?v=20261021-v1b">
+  <link rel="stylesheet" href="styles.css?v=20261021-v1c">
   <script>document.documentElement.classList.add('js');</script>
 
   <script type="application/ld+json">
@@ -46,21 +46,22 @@
 <body>
   <a class="skip" href="#main">Saltar al contenido</a>
 
-  <!-- ===== NAV ===== -->
+  <!-- ===== BARRA SUPERIOR (ancho completo, teléfono siempre visible) ===== -->
   <header class="nav" id="nav">
-    <div class="nav__pill">
+    <div class="nav__bar">
       <a class="nav__brand" href="#inicio" aria-label="GREENNATURA, ir al inicio">
-        <img src="assets/img/emblema.webp" alt="" width="36" height="36">
+        <span class="nav__mark"><img src="assets/img/emblema.webp" alt="" width="32" height="32"></span>
         <span>GREENNATURA</span>
       </a>
       <nav class="nav__links" aria-label="Principal">
-        <a href="#modelos">Modelos</a>
+        <a href="#carta">Precios</a>
         <a href="#reciclado">Reciclado</a>
-        <a href="#proyectos">Proyectos</a>
+        <a href="#obras">Obras</a>
         <a href="#calculadora">Calculadora</a>
         <a href="#faq">Preguntas</a>
       </nav>
-      <a class="btn btn--sm btn--dark nav__cta" href="https://wa.me/34634287740?text=Hola%20GREENNATURA%2C%20quiero%20un%20presupuesto%20de%20c%C3%A9sped%20artificial" target="_blank" rel="noopener">
+      <a class="nav__tel" href="tel:+34634287740"><i class="ph ph-phone" aria-hidden="true"></i> 634 287 740</a>
+      <a class="btn btn--lime btn--sm nav__cta" href="https://wa.me/34634287740?text=Hola%20GREENNATURA%2C%20quiero%20un%20presupuesto%20de%20c%C3%A9sped%20artificial" target="_blank" rel="noopener">
         <i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Presupuesto
       </a>
       <button class="nav__burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
@@ -71,88 +72,63 @@
 
   <div class="menu" id="menu" aria-hidden="true">
     <nav class="menu__links" aria-label="Menú móvil">
-      <a href="#modelos">Modelos y precios</a>
+      <a href="#carta">Lista de precios</a>
       <a href="#reciclado">Por qué reciclado</a>
-      <a href="#proyectos">Proyectos</a>
+      <a href="#obras">Obras</a>
       <a href="#calculadora">Calculadora</a>
       <a href="#faq">Preguntas frecuentes</a>
       <a href="#contacto">Contacto</a>
     </nav>
     <div class="menu__foot">
-      <a class="btn btn--leaf" href="https://wa.me/34634287740" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Escribir por WhatsApp</a>
+      <a class="btn btn--lime" href="https://wa.me/34634287740" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Escribir por WhatsApp</a>
       <a class="menu__tel" href="tel:+34634287740">634 287 740</a>
     </div>
   </div>
 
   <main id="main">
 
-    <!-- ===== HERO ===== -->
+    <!-- ===== PORTADA: foto a sangre con titular gigante ===== -->
     <section class="hero" id="inicio">
-      <div class="container hero__grid">
-        <div class="hero__copy">
-          <p class="eyebrow reveal"><i class="ph-fill ph-recycle" aria-hidden="true"></i> Venta e instalación de césped artificial</p>
-          <h1 class="hero__title reveal">
-            Césped artificial reciclado<br>
-            desde <span class="hl">4 €/m²</span>,<br>
-            y pagas al recibirlo.
-          </h1>
-          <p class="hero__sub reveal">
-            Te lo enviamos a cualquier punto de España contrarreembolso
-            o te lo dejamos instalado. Desde un balcón hasta un campo de fútbol.
-          </p>
-          <div class="hero__actions reveal">
-            <a class="btn btn--dark btn--lg" href="https://wa.me/34634287740?text=Hola%20GREENNATURA%2C%20quiero%20un%20presupuesto%20de%20c%C3%A9sped%20artificial" target="_blank" rel="noopener">
-              <i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Pedir presupuesto por WhatsApp
+      <img class="hero__bg" src="assets/img/malaga-cf.webp" alt="Campo de fútbol de césped artificial iluminado de noche en la Ciudad Deportiva del Málaga C.F." width="1080" height="1440" fetchpriority="high">
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="tag reveal"><span class="dot" aria-hidden="true"></span> Envíos a toda España · Pago contrarreembolso</p>
+        <h1 class="hero__title reveal">
+          Verde todo el año.<br>
+          <span class="lime">Desde 4 €/<span class="unit">m²</span>.</span>
+        </h1>
+        <div class="hero__row reveal">
+          <p class="hero__sub">Césped artificial reciclado y nuevo. Te lo mandamos a casa y pagas al recibirlo, o te lo dejamos instalado.</p>
+          <div class="hero__actions">
+            <a class="btn btn--lime btn--lg" href="https://wa.me/34634287740?text=Hola%20GREENNATURA%2C%20quiero%20un%20presupuesto%20de%20c%C3%A9sped%20artificial" target="_blank" rel="noopener">
+              <i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Pedir presupuesto
             </a>
-            <a class="link-arrow" href="#modelos">Ver modelos y precios <i class="ph ph-arrow-down" aria-hidden="true"></i></a>
+            <a class="btn btn--line btn--lg" href="#carta">Ver precios</a>
           </div>
-          <ul class="hero__proof reveal" aria-label="Datos destacados">
-            <li><strong data-count="8500" data-sep=".">8.500</strong> m² instalados en la Ciudad Deportiva del Málaga C.F.</li>
-            <li><strong data-count="200" data-prefix="+" data-suffix=" mil">+200 mil</strong> reproducciones de nuestros vídeos en TikTok</li>
-          </ul>
         </div>
-
-        <figure class="hero__media reveal">
-          <img src="assets/img/hero.webp" alt="Primer plano de césped artificial reciclado de fibra larga" width="1600" height="1200" fetchpriority="high">
-          <figcaption class="price-tag">
-            <span>desde</span>
-            <strong>4 €</strong>
-            <span>por m²</span>
-          </figcaption>
-          <div class="hero__chip">
-            <i class="ph-fill ph-hand-coins" aria-hidden="true"></i>
-            <div><strong>Contrarreembolso</strong><span>Pagas en la entrega</span></div>
-          </div>
-        </figure>
       </div>
-      <canvas class="grass" id="grass" aria-hidden="true"></canvas>
+      <p class="hero__credit"><i class="ph ph-map-pin" aria-hidden="true"></i> Ciudad Deportiva del Málaga C.F. · 8.500 m² instalados</p>
     </section>
 
-    <!-- ===== MARQUEE ===== -->
-    <div class="ticker" aria-label="Ventajas">
-      <div class="ticker__track">
-        <span><i class="ph ph-truck" aria-hidden="true"></i> Envíos a toda España</span>
-        <span><i class="ph ph-hand-coins" aria-hidden="true"></i> Pago contrarreembolso</span>
-        <span><i class="ph ph-recycle" aria-hidden="true"></i> Césped con segunda vida</span>
-        <span><i class="ph ph-lightning" aria-hidden="true"></i> Presupuesto al instante</span>
-        <span><i class="ph ph-drop-slash" aria-hidden="true"></i> Sin riego ni siega</span>
-        <span><i class="ph ph-hammer" aria-hidden="true"></i> Instalación profesional</span>
-        <span aria-hidden="true"><i class="ph ph-truck"></i> Envíos a toda España</span>
-        <span aria-hidden="true"><i class="ph ph-hand-coins"></i> Pago contrarreembolso</span>
-        <span aria-hidden="true"><i class="ph ph-recycle"></i> Césped con segunda vida</span>
-        <span aria-hidden="true"><i class="ph ph-lightning"></i> Presupuesto al instante</span>
-        <span aria-hidden="true"><i class="ph ph-drop-slash"></i> Sin riego ni siega</span>
-        <span aria-hidden="true"><i class="ph ph-hammer"></i> Instalación profesional</span>
+    <!-- ===== CIFRAS ===== -->
+    <section class="stats" aria-label="Datos destacados">
+      <div class="container stats__grid">
+        <div class="stat reveal"><strong data-count="8500" data-sep=".">8.500</strong><span>m² en la Ciudad Deportiva del Málaga C.F.</span></div>
+        <div class="stat reveal"><strong data-count="6500" data-sep=".">6.500</strong><span>m² de campo en Hortaleza, Madrid</span></div>
+        <div class="stat reveal"><strong data-count="200" data-prefix="+" data-suffix=" mil">+200 mil</strong><span>reproducciones en TikTok</span></div>
+        <div class="stat reveal"><strong>0 €</strong><span>por adelantado: pagas en la entrega</span></div>
       </div>
-    </div>
+    </section>
 
-    <!-- ===== MODELOS ===== -->
-    <section class="section" id="modelos">
+    <!-- ===== LISTA DE PRECIOS (carta) ===== -->
+    <section class="section" id="carta">
       <div class="container">
-        <header class="section__head">
-          <p class="eyebrow reveal">Catálogo</p>
-          <h2 class="reveal">Modelos y precios<br>por metro cuadrado</h2>
-          <p class="section__lead reveal">Trabajamos por lotes: cada partida de reciclado tiene su altura y su tacto. Estos son los modelos que hemos enseñado en nuestro perfil. Pide fotos y vídeo del rollo antes de comprar.</p>
+        <header class="head">
+          <div>
+            <p class="kicker reveal">01 · Lista de precios</p>
+            <h2 class="reveal">Elige tu césped<br>por metro cuadrado.</h2>
+          </div>
+          <p class="lead reveal">El reciclado llega por lotes y cada lote tiene su altura y su tacto. Pide vídeo del rollo real antes de comprar.</p>
         </header>
 
         <div class="filters reveal" role="group" aria-label="Filtrar modelos">
@@ -162,243 +138,188 @@
           <button class="chip" data-filter="nuevo" aria-pressed="false">Césped nuevo</button>
         </div>
 
-        <div class="models" id="models">
-          <article class="model reveal" data-tags="eco">
-            <div class="model__img"><img src="assets/img/instalacion-reciente.webp" alt="Mano sobre césped reciclado de fin de temporada" loading="lazy" width="1080" height="1124"><span class="badge badge--gold">Fin de temporada</span></div>
-            <div class="model__body">
-              <h3>Reciclado esencial</h3>
-              <p>Liquidación de temporada. Perfecto para patios, terrazas y zonas de paso donde manda el precio.</p>
-              <ul class="specs"><li><i class="ph ph-recycle" aria-hidden="true"></i> Reciclado</li><li><i class="ph ph-map-pin" aria-hidden="true"></i> Stock limitado</li></ul>
-              <div class="model__foot"><p class="price"><small>desde</small> 4,00 €<small>/m²</small></p><a class="btn btn--sm btn--ghost" data-wa-model="Reciclado esencial 4 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener">Lo quiero</a></div>
-            </div>
-          </article>
-
-          <article class="model reveal" data-tags="eco">
-            <div class="model__img"><img src="assets/img/modelo-40.webp" alt="Césped reciclado de 40 milímetros con la mano apoyada" loading="lazy" width="1080" height="1133"><span class="badge">Oferta</span></div>
-            <div class="model__body">
-              <h3>Reciclado 40 mm</h3>
-              <p>Fibra de 40 mm con buen color. El equilibrio entre precio y aspecto para jardines familiares.</p>
-              <ul class="specs"><li><i class="ph ph-ruler" aria-hidden="true"></i> 40 mm</li><li><i class="ph ph-recycle" aria-hidden="true"></i> Reciclado</li></ul>
-              <div class="model__foot"><p class="price">4,50 €<small>/m²</small></p><a class="btn btn--sm btn--ghost" data-wa-model="Reciclado 40 mm 4,50 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener">Lo quiero</a></div>
-            </div>
-          </article>
-
-          <article class="model reveal" data-tags="eco denso">
-            <div class="model__img"><img src="assets/img/modelo-50.webp" alt="Césped reciclado de 50 milímetros de la nueva gama" loading="lazy" width="540" height="757"><span class="badge">Nueva gama</span></div>
-            <div class="model__body">
-              <h3>Reciclado 50 mm</h3>
-              <p>Nuestra gama de fibra larga a precio de entrada. Pisada mullida y aspecto de jardín recién cortado.</p>
-              <ul class="specs"><li><i class="ph ph-ruler" aria-hidden="true"></i> 50 mm</li><li><i class="ph ph-recycle" aria-hidden="true"></i> Reciclado</li></ul>
-              <div class="model__foot"><p class="price"><small>desde</small> 4,70 €<small>/m²</small></p><a class="btn btn--sm btn--ghost" data-wa-model="Reciclado 50 mm 4,70 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener">Lo quiero</a></div>
-            </div>
-          </article>
-
-          <article class="model reveal" data-tags="denso">
-            <div class="model__img"><img src="assets/img/reciclado-45-50.webp" alt="Césped reciclado espectacular de 45 a 50 milímetros" loading="lazy" width="1080" height="1920"><span class="badge">El más pedido</span></div>
-            <div class="model__body">
-              <h3>Reciclado 45/50 mm</h3>
-              <p>Denso, verde y uniforme. El que más enseñamos en vídeo porque se defiende solo cuando lo tocas.</p>
-              <ul class="specs"><li><i class="ph ph-ruler" aria-hidden="true"></i> 45 a 50 mm</li><li><i class="ph ph-recycle" aria-hidden="true"></i> Reciclado</li></ul>
-              <div class="model__foot"><p class="price">5,00 €<small>/m²</small></p><a class="btn btn--sm btn--ghost" data-wa-model="Reciclado 45/50 mm 5 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener">Lo quiero</a></div>
-            </div>
-          </article>
-
-          <article class="model reveal" data-tags="denso">
-            <div class="model__img"><img src="assets/img/modelo-45-50.webp" alt="Nuevo modelo de césped reciclado de 45 a 50 milímetros" loading="lazy" width="1080" height="1498"><span class="badge">Nuevo lote</span></div>
-            <div class="model__body">
-              <h3>Reciclado selección 45/50 mm</h3>
-              <p>Lote seleccionado con fibra más abierta y natural. Para quien quiere que el jardín parezca de verdad.</p>
-              <ul class="specs"><li><i class="ph ph-ruler" aria-hidden="true"></i> 45 a 50 mm</li><li><i class="ph ph-recycle" aria-hidden="true"></i> Reciclado</li></ul>
-              <div class="model__foot"><p class="price">5,50 €<small>/m²</small></p><a class="btn btn--sm btn--ghost" data-wa-model="Reciclado selección 45/50 mm 5,50 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener">Lo quiero</a></div>
-            </div>
-          </article>
-
-          <article class="model reveal" data-tags="denso">
-            <div class="model__img"><img src="assets/img/modelo-45.webp" alt="Césped de 40 a 45 milímetros de gran densidad" loading="lazy" width="540" height="601"><span class="badge">Nuevo modelo</span></div>
-            <div class="model__body">
-              <h3>Reciclado plus 40/45 mm</h3>
-              <p>Nuestro reciclado más tupido. Aguanta bien el uso diario de niños y mascotas.</p>
-              <ul class="specs"><li><i class="ph ph-ruler" aria-hidden="true"></i> 40 a 45 mm</li><li><i class="ph ph-recycle" aria-hidden="true"></i> Reciclado</li></ul>
-              <div class="model__foot"><p class="price">6,00 €<small>/m²</small></p><a class="btn btn--sm btn--ghost" data-wa-model="Reciclado plus 40/45 mm 6 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener">Lo quiero</a></div>
-            </div>
-          </article>
-
-          <article class="model model--feature reveal" data-tags="nuevo">
-            <div class="model__body">
-              <span class="badge badge--gold">Césped nuevo</span>
-              <h3>Césped nuevo, a estrenar</h3>
-              <p>Máxima calidad y durabilidad, con acabado natural y calidad garantizada. Te lo vendemos suelto o te lo dejamos colocado.</p>
-              <ul class="specs specs--light"><li><i class="ph ph-sparkle" aria-hidden="true"></i> A estrenar</li><li><i class="ph ph-hammer" aria-hidden="true"></i> Con o sin instalación</li></ul>
-              <div class="dual">
-                <div><small>Solo césped</small><p class="price">desde 7 €<small>/m²</small></p></div>
-                <div><small>Césped + instalación</small><p class="price">desde 15 €<small>/m²</small></p></div>
-              </div>
-              <a class="btn btn--leaf" data-wa-model="Césped nuevo (desde 7 €/m² o 15 €/m² instalado)" href="https://wa.me/34634287740" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Pedir presupuesto gratis</a>
-            </div>
-          </article>
-        </div>
-
+        <ol class="carta" id="models">
+          <li class="model row reveal" data-tags="eco">
+            <img class="row__img" src="assets/img/instalacion-reciente.webp" alt="" loading="lazy" width="1080" height="1124">
+            <div class="row__name"><h3>Reciclado esencial</h3><span class="pill pill--gold">Fin de temporada</span></div>
+            <p class="row__spec">Reciclado · stock limitado · patios y zonas de paso</p>
+            <p class="row__price"><small>desde</small> 4,00 €</p>
+            <a class="row__go" data-wa-model="Reciclado esencial 4 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener" aria-label="Pedir Reciclado esencial por WhatsApp"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          </li>
+          <li class="model row reveal" data-tags="eco">
+            <img class="row__img" src="assets/img/modelo-40.webp" alt="" loading="lazy" width="1080" height="1133">
+            <div class="row__name"><h3>Reciclado 40 mm</h3><span class="pill">Oferta</span></div>
+            <p class="row__spec">40 mm · buen color · jardines familiares</p>
+            <p class="row__price">4,50 €</p>
+            <a class="row__go" data-wa-model="Reciclado 40 mm 4,50 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener" aria-label="Pedir Reciclado 40 mm por WhatsApp"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          </li>
+          <li class="model row reveal" data-tags="eco denso">
+            <img class="row__img" src="assets/img/modelo-50.webp" alt="" loading="lazy" width="540" height="757">
+            <div class="row__name"><h3>Reciclado 50 mm</h3><span class="pill">Nueva gama</span></div>
+            <p class="row__spec">50 mm · pisada mullida · fibra larga</p>
+            <p class="row__price"><small>desde</small> 4,70 €</p>
+            <a class="row__go" data-wa-model="Reciclado 50 mm 4,70 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener" aria-label="Pedir Reciclado 50 mm por WhatsApp"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          </li>
+          <li class="model row reveal" data-tags="denso">
+            <img class="row__img" src="assets/img/reciclado-45-50.webp" alt="" loading="lazy" width="1080" height="1920">
+            <div class="row__name"><h3>Reciclado 45/50 mm</h3><span class="pill pill--lime">El más pedido</span></div>
+            <p class="row__spec">45 a 50 mm · denso, verde y uniforme</p>
+            <p class="row__price">5,00 €</p>
+            <a class="row__go" data-wa-model="Reciclado 45/50 mm 5 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener" aria-label="Pedir Reciclado 45/50 mm por WhatsApp"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          </li>
+          <li class="model row reveal" data-tags="denso">
+            <img class="row__img" src="assets/img/modelo-45-50.webp" alt="" loading="lazy" width="1080" height="1498">
+            <div class="row__name"><h3>Reciclado selección 45/50 mm</h3><span class="pill">Nuevo lote</span></div>
+            <p class="row__spec">45 a 50 mm · fibra abierta y natural</p>
+            <p class="row__price">5,50 €</p>
+            <a class="row__go" data-wa-model="Reciclado selección 45/50 mm 5,50 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener" aria-label="Pedir Reciclado selección por WhatsApp"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          </li>
+          <li class="model row reveal" data-tags="denso">
+            <img class="row__img" src="assets/img/modelo-45.webp" alt="" loading="lazy" width="540" height="601">
+            <div class="row__name"><h3>Reciclado plus 40/45 mm</h3><span class="pill">Nuevo modelo</span></div>
+            <p class="row__spec">40 a 45 mm · el más tupido · niños y mascotas</p>
+            <p class="row__price">6,00 €</p>
+            <a class="row__go" data-wa-model="Reciclado plus 40/45 mm 6 €/m²" href="https://wa.me/34634287740" target="_blank" rel="noopener" aria-label="Pedir Reciclado plus por WhatsApp"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          </li>
+          <li class="model row row--new reveal" data-tags="nuevo">
+            <span class="row__img row__img--icon" aria-hidden="true"><i class="ph-fill ph-sparkle"></i></span>
+            <div class="row__name"><h3>Césped nuevo, a estrenar</h3><span class="pill pill--gold">Calidad garantizada</span></div>
+            <p class="row__spec">Solo césped desde 7 €/m² · instalado desde 15 €/m²</p>
+            <p class="row__price"><small>desde</small> 7,00 €</p>
+            <a class="row__go" data-wa-model="Césped nuevo (desde 7 €/m² o 15 €/m² instalado)" href="https://wa.me/34634287740" target="_blank" rel="noopener" aria-label="Pedir césped nuevo por WhatsApp"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          </li>
+        </ol>
         <p class="empty" id="models-empty" hidden>No hay modelos con este filtro ahora mismo. <button class="link-btn" data-filter="all">Ver todos</button></p>
-        <p class="note reveal"><i class="ph ph-info" aria-hidden="true"></i> Precios por m² publicados en nuestros vídeos. Los portes se calculan según destino. El reciclado va por lotes: confirma disponibilidad por WhatsApp.</p>
+        <p class="note reveal"><i class="ph ph-info" aria-hidden="true"></i> Precios por m² publicados en nuestros vídeos. Los portes se calculan según destino.</p>
       </div>
     </section>
 
-    <!-- ===== TAGLINE REVEAL ===== -->
+    <!-- ===== LEMA ===== -->
     <section class="tagline" aria-label="Nuestro lema">
       <div class="container">
         <p class="tagline__text" id="tagline">Instalamos calidad, vendemos confianza. Transformamos tus espacios dentro y fuera de casa.</p>
-        <p class="tagline__sign">José Márquez Luna · GREENNATURA</p>
+        <p class="tagline__sign">José Márquez Luna · fundador de GREENNATURA</p>
       </div>
     </section>
 
-    <!-- ===== RECICLADO VS NUEVO ===== -->
-    <section class="section section--dark" id="reciclado">
+    <!-- ===== BENTO: por qué reciclado ===== -->
+    <section class="section" id="reciclado">
       <div class="container">
-        <header class="section__head">
-          <p class="eyebrow eyebrow--light reveal">Por qué reciclado</p>
-          <h2 class="reveal">El mismo verde,<br>a casi la mitad de precio.</h2>
-          <p class="section__lead reveal">El reciclado es césped de calidad deportiva que ha terminado su vida en competición. Lo seleccionamos, lo cortamos a medida y vuelve a lucir en un jardín en lugar de acabar en un vertedero.</p>
-        </header>
-
-        <div class="benefits">
-          <article class="benefit reveal"><i class="ph ph-piggy-bank" aria-hidden="true"></i><h3>Desde 4 €/m²</h3><p>Frente a los 7 €/m² del nuevo. En 60 m² de jardín te ahorras unos 180 €.</p></article>
-          <article class="benefit reveal"><i class="ph ph-recycle" aria-hidden="true"></i><h3>Segunda vida</h3><p>Cada metro que instalamos es un metro de plástico que no va a la basura.</p></article>
-          <article class="benefit reveal"><i class="ph ph-drop-slash" aria-hidden="true"></i><h3>Ahorra agua y tiempo</h3><p>Sin riego, sin siega y sin abono. Verde en agosto y en enero.</p></article>
-          <article class="benefit reveal"><i class="ph ph-hand-coins" aria-hidden="true"></i><h3>Pagas al recibirlo</h3><p>Pago contrarreembolso. No adelantas dinero a nadie por internet.</p></article>
-          <article class="benefit reveal"><i class="ph ph-truck" aria-hidden="true"></i><h3>Toda España</h3><p>Enviamos a cualquier provincia. Instalamos en Andalucía, Madrid y donde haga falta.</p></article>
-          <article class="benefit reveal"><i class="ph ph-video-camera" aria-hidden="true"></i><h3>Lo ves antes</h3><p>Te mandamos vídeo del lote real. Sin sorpresas al abrir el rollo.</p></article>
-        </div>
-
-        <div class="compare reveal" role="region" aria-label="Comparativa entre césped reciclado y nuevo">
-          <table>
-            <caption class="sr-only">Reciclado frente a nuevo</caption>
-            <thead><tr><th scope="col"></th><th scope="col"><i class="ph-fill ph-recycle" aria-hidden="true"></i> Reciclado</th><th scope="col"><i class="ph-fill ph-sparkle" aria-hidden="true"></i> Nuevo</th></tr></thead>
-            <tbody>
-              <tr><th scope="row">Precio</th><td>de 4 a 6 €/m²</td><td>desde 7 €/m²</td></tr>
-              <tr><th scope="row">Alturas</th><td>40 a 50 mm según lote</td><td>a elegir</td></tr>
-              <tr><th scope="row">Ideal para</th><td>Jardines, patios, perreras, zonas de juego</td><td>Jardines de diseño, terrazas, áticos</td></tr>
-              <tr><th scope="row">Instalación</th><td>Te lo enviamos o lo instalamos</td><td>Instalado desde 15 €/m²</td></tr>
-              <tr><th scope="row">Sostenibilidad</th><td><i class="ph-fill ph-leaf" aria-hidden="true"></i> Reutiliza material existente</td><td>Máxima vida útil</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== USOS ===== -->
-    <section class="section" id="usos">
-      <div class="container">
-        <header class="section__head section__head--row">
+        <header class="head">
           <div>
-            <p class="eyebrow reveal">Dónde lo ponemos</p>
-            <h2 class="reveal">Un verde que aguanta<br>lo que le eches.</h2>
+            <p class="kicker reveal">02 · Por qué reciclado</p>
+            <h2 class="reveal">El mismo verde,<br>a casi la mitad.</h2>
           </div>
-          <p class="section__lead reveal">Cada espacio pide una altura y una densidad. Cuéntanos dónde va y te recomendamos el lote que mejor encaja.</p>
+          <p class="lead reveal">Césped de calidad deportiva que ha terminado su vida en competición. Lo seleccionamos, lo cortamos a medida y vuelve a lucir en tu casa.</p>
         </header>
-        <ul class="uses">
-          <li class="use reveal"><i class="ph ph-plant" aria-hidden="true"></i><span>Jardín</span></li>
-          <li class="use reveal"><i class="ph ph-sun-horizon" aria-hidden="true"></i><span>Terraza y balcón</span></li>
-          <li class="use reveal"><i class="ph ph-swimming-pool" aria-hidden="true"></i><span>Piscina</span></li>
-          <li class="use reveal"><i class="ph ph-paw-print" aria-hidden="true"></i><span>Mascotas</span></li>
-          <li class="use reveal"><i class="ph ph-baby" aria-hidden="true"></i><span>Zonas infantiles</span></li>
-          <li class="use reveal"><i class="ph ph-soccer-ball" aria-hidden="true"></i><span>Campos deportivos</span></li>
+
+        <div class="bento">
+          <article class="tile tile--price reveal">
+            <p class="tile__label">Reciclado frente a nuevo</p>
+            <div class="vs">
+              <p><span class="vs__big lime">4 €</span><small>reciclado / m²</small></p>
+              <p class="vs__old"><span class="vs__big">7 €</span><small>nuevo / m²</small></p>
+            </div>
+            <p class="tile__foot">En un jardín de 60 m² te ahorras unos 180 €.</p>
+          </article>
+          <article class="tile tile--photo reveal">
+            <img src="assets/img/modelo-45-50.webp" alt="Mano sobre césped reciclado de 45 a 50 milímetros" loading="lazy" width="1080" height="1498">
+            <p class="tile__over">Lo ves en vídeo antes de comprarlo</p>
+          </article>
+          <article class="tile reveal"><i class="ph ph-recycle" aria-hidden="true"></i><h3>Segunda vida</h3><p>Cada metro que instalamos es plástico que no acaba en un vertedero.</p></article>
+          <article class="tile reveal"><i class="ph ph-drop-slash" aria-hidden="true"></i><h3>Ni riego ni siega</h3><p>Ahorra agua y tiempo. Verde en agosto y en enero.</p></article>
+          <article class="tile tile--lime tile--wide reveal"><i class="ph ph-hand-coins" aria-hidden="true"></i><h3>Pagas al recibirlo</h3><p>Contrarreembolso. No adelantas dinero a nadie por internet.</p></article>
+          <article class="tile tile--wide reveal"><i class="ph ph-truck" aria-hidden="true"></i><h3>Toda España</h3><p>Enviamos a cualquier provincia e instalamos donde haga falta.</p></article>
+        </div>
+
+        <ul class="uses reveal" aria-label="Usos">
+          <li><i class="ph ph-plant" aria-hidden="true"></i> Jardín</li>
+          <li><i class="ph ph-sun-horizon" aria-hidden="true"></i> Terraza y balcón</li>
+          <li><i class="ph ph-swimming-pool" aria-hidden="true"></i> Piscina</li>
+          <li><i class="ph ph-paw-print" aria-hidden="true"></i> Mascotas</li>
+          <li><i class="ph ph-baby" aria-hidden="true"></i> Zonas infantiles</li>
+          <li><i class="ph ph-soccer-ball" aria-hidden="true"></i> Campos deportivos</li>
         </ul>
       </div>
     </section>
 
-    <!-- ===== PROYECTOS ===== -->
-    <section class="section section--tint" id="proyectos">
+    <!-- ===== OBRAS: filas alternas ===== -->
+    <section class="section section--alt" id="obras">
       <div class="container">
-        <header class="section__head">
-          <p class="eyebrow reveal">Obras recientes</p>
-          <h2 class="reveal">De un patio en casa<br>a 8.500 m² de campo.</h2>
+        <header class="head">
+          <div>
+            <p class="kicker reveal">03 · Obras</p>
+            <h2 class="reveal">De un patio<br>a un estadio.</h2>
+          </div>
         </header>
 
-        <div class="projects">
-          <a class="project project--xl reveal" href="https://www.tiktok.com/@greennatura2026/video/7697007695584382230" target="_blank" rel="noopener">
-            <img src="assets/img/malaga-cf.webp" alt="Campo de fútbol de césped artificial iluminado de noche en la Ciudad Deportiva del Málaga C.F." loading="lazy" width="1080" height="1440">
-            <div class="project__info">
-              <span class="badge badge--gold">Instalación deportiva</span>
-              <h3>Ciudad Deportiva del Málaga C.F.</h3>
-              <p><strong data-count="8500" data-sep=".">8.500</strong> m² · hierba de 40 mm</p>
-              <span class="project__cta"><i class="ph-fill ph-play-circle" aria-hidden="true"></i> Ver vídeo</span>
-            </div>
+        <article class="work reveal">
+          <a class="work__media" href="https://www.tiktok.com/@greennatura2026/video/7697007695584382230" target="_blank" rel="noopener">
+            <img src="assets/img/malaga-cf.webp" alt="Campo de la Ciudad Deportiva del Málaga C.F. con césped artificial de noche" loading="lazy" width="1080" height="1440">
+            <span class="play"><i class="ph-fill ph-play" aria-hidden="true"></i> Ver vídeo</span>
           </a>
-          <a class="project reveal" href="https://www.tiktok.com/@greennatura2026/video/7696979085884427542" target="_blank" rel="noopener">
-            <img src="assets/img/hortaleza.webp" alt="Base preparada de un campo deportivo en Hortaleza, Madrid, antes de extender el césped" loading="lazy" width="1080" height="1920">
-            <div class="project__info">
-              <span class="badge">Madrid</span>
-              <h3>Campo en Hortaleza</h3>
-              <p><strong data-count="6500" data-sep=".">6.500</strong> m² · modelo de 60 mm</p>
-              <span class="project__cta"><i class="ph-fill ph-play-circle" aria-hidden="true"></i> Ver vídeo</span>
-            </div>
+          <div class="work__body">
+            <p class="kicker">Instalación deportiva · Málaga</p>
+            <h3>Ciudad Deportiva del Málaga C.F.</h3>
+            <dl class="facts"><div><dt>Superficie</dt><dd>8.500 m²</dd></div><div><dt>Hierba</dt><dd>40 mm</dd></div></dl>
+          </div>
+        </article>
+
+        <article class="work work--flip reveal">
+          <a class="work__media" href="https://www.tiktok.com/@greennatura2026/video/7696979085884427542" target="_blank" rel="noopener">
+            <img src="assets/img/hortaleza.webp" alt="Base preparada de un campo deportivo en Hortaleza, Madrid" loading="lazy" width="1080" height="1920">
+            <span class="play"><i class="ph-fill ph-play" aria-hidden="true"></i> Ver vídeo</span>
           </a>
-          <a class="project reveal" href="https://www.tiktok.com/@greennatura2026/video/7634143962692881686" target="_blank" rel="noopener">
-            <img src="assets/img/paso-a-paso.webp" alt="Operarios preparando el terreno junto a una piscina para instalar césped reciclado" loading="lazy" width="408" height="539">
-            <div class="project__info">
-              <span class="badge">Jardín con piscina</span>
-              <h3>Instalación paso a paso</h3>
-              <p>Reciclado a 5 €/m²</p>
-              <span class="project__cta"><i class="ph-fill ph-play-circle" aria-hidden="true"></i> Ver vídeo</span>
-            </div>
+          <div class="work__body">
+            <p class="kicker">Instalación deportiva · Madrid</p>
+            <h3>Campo en Hortaleza</h3>
+            <dl class="facts"><div><dt>Superficie</dt><dd>6.500 m²</dd></div><div><dt>Modelo</dt><dd>60 mm</dd></div></dl>
+          </div>
+        </article>
+
+        <article class="work reveal">
+          <a class="work__media" href="https://www.tiktok.com/@greennatura2026/video/7634143962692881686" target="_blank" rel="noopener">
+            <img src="assets/img/paso-a-paso.webp" alt="Operarios preparando el terreno junto a una piscina" loading="lazy" width="408" height="539">
+            <span class="play"><i class="ph-fill ph-play" aria-hidden="true"></i> Ver vídeo</span>
           </a>
-        </div>
+          <div class="work__body">
+            <p class="kicker">Jardín particular</p>
+            <h3>Jardín con piscina, paso a paso</h3>
+            <dl class="facts"><div><dt>Césped</dt><dd>Reciclado</dd></div><div><dt>Precio</dt><dd>5 €/m²</dd></div></dl>
+          </div>
+        </article>
       </div>
     </section>
 
-    <!-- ===== PROCESO ===== -->
+    <!-- ===== PROCESO: línea de tiempo vertical ===== -->
     <section class="section" id="proceso">
-      <div class="container">
-        <header class="section__head">
-          <p class="eyebrow reveal">Cómo funciona</p>
-          <h2 class="reveal">Tres mensajes y<br>tu jardín está en camino.</h2>
+      <div class="container process">
+        <header class="process__head">
+          <p class="kicker reveal">04 · Cómo funciona</p>
+          <h2 class="reveal">Tres mensajes<br>y está en camino.</h2>
+          <a class="btn btn--lime reveal" href="https://wa.me/34634287740" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Empezar ahora</a>
         </header>
-        <ol class="steps">
-          <li class="step reveal">
-            <span class="step__n">01</span>
-            <i class="ph ph-ruler" aria-hidden="true"></i>
-            <h3>Mándanos medidas y una foto</h3>
-            <p>Por WhatsApp al 634 287 740. Largo, ancho y una foto del espacio es todo lo que necesitamos.</p>
-          </li>
-          <li class="step reveal">
-            <span class="step__n">02</span>
-            <i class="ph ph-chat-circle-text" aria-hidden="true"></i>
-            <h3>Presupuesto al instante</h3>
-            <p>Te recomendamos el modelo, te enseñamos el lote en vídeo y te damos el precio cerrado con portes.</p>
-          </li>
-          <li class="step reveal">
-            <span class="step__n">03</span>
-            <i class="ph ph-package" aria-hidden="true"></i>
-            <h3>Lo recibes y pagas</h3>
-            <p>Llega a tu puerta y pagas en la entrega. Si prefieres, vamos nosotros y lo dejamos instalado.</p>
-          </li>
+        <ol class="timeline">
+          <li class="reveal"><span class="timeline__n">1</span><div><h3>Mándanos medidas y una foto</h3><p>Por WhatsApp al 634 287 740. Largo, ancho y una foto del espacio.</p></div></li>
+          <li class="reveal"><span class="timeline__n">2</span><div><h3>Presupuesto al instante</h3><p>Te recomendamos el modelo, te enseñamos el lote en vídeo y te damos precio cerrado con portes.</p></div></li>
+          <li class="reveal"><span class="timeline__n">3</span><div><h3>Lo recibes y pagas</h3><p>Llega a tu puerta y pagas en la entrega. O vamos nosotros y te lo dejamos instalado.</p></div></li>
         </ol>
       </div>
     </section>
 
     <!-- ===== CALCULADORA ===== -->
-    <section class="section section--tint" id="calculadora">
+    <section class="section section--alt" id="calculadora">
       <div class="container calc">
         <div class="calc__intro">
-          <p class="eyebrow reveal">Calculadora</p>
+          <p class="kicker reveal">05 · Calculadora</p>
           <h2 class="reveal">¿Cuánto cuesta<br>tu jardín?</h2>
-          <p class="section__lead reveal">Mide el largo y el ancho, elige modelo y te damos una estimación al momento. Luego nos la mandas por WhatsApp y te confirmamos el precio final con portes.</p>
-          <ul class="calc__tips reveal">
-            <li><i class="ph ph-check-circle" aria-hidden="true"></i> Para formas irregulares, divide en rectángulos y suma.</li>
-            <li><i class="ph ph-check-circle" aria-hidden="true"></i> Añade un margen para recortes y uniones.</li>
-          </ul>
+          <p class="lead reveal">Mide el largo y el ancho y elige modelo. Si la forma es irregular, divídela en rectángulos y suma.</p>
         </div>
 
         <form class="calc__card reveal" id="calc" novalidate>
           <div class="field-row">
-            <label class="field">
-              <span>Largo (m)</span>
-              <input type="number" inputmode="decimal" min="0.5" max="500" step="0.1" name="largo" value="8" required>
-            </label>
-            <label class="field">
-              <span>Ancho (m)</span>
-              <input type="number" inputmode="decimal" min="0.5" max="500" step="0.1" name="ancho" value="6" required>
-            </label>
+            <label class="field"><span>Largo (m)</span><input type="number" inputmode="decimal" min="0.5" max="500" step="0.1" name="largo" value="8" required></label>
+            <label class="field"><span>Ancho (m)</span><input type="number" inputmode="decimal" min="0.5" max="500" step="0.1" name="ancho" value="6" required></label>
           </div>
           <label class="field">
             <span>Modelo</span>
@@ -413,105 +334,70 @@
               <option value="15">Césped nuevo instalado · desde 15 €/m²</option>
             </select>
           </label>
-          <label class="check">
-            <input type="checkbox" name="margen" checked>
-            <span>Sumar un 5 % para recortes</span>
-          </label>
+          <label class="check"><input type="checkbox" name="margen" checked><span>Sumar un 5 % para recortes</span></label>
           <p class="field-error" id="calc-error" role="alert" hidden></p>
-
           <div class="calc__result" aria-live="polite">
             <div><small>Superficie</small><p id="calc-m2">50,4 m²</p></div>
             <div><small>Estimación</small><p class="calc__total" id="calc-total">252 €</p></div>
           </div>
-          <a class="btn btn--dark btn--block" id="calc-wa" href="https://wa.me/34634287740" target="_blank" rel="noopener">
-            <i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Enviar esta estimación por WhatsApp
-          </a>
+          <a class="btn btn--lime btn--block" id="calc-wa" href="https://wa.me/34634287740" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Enviar esta estimación por WhatsApp</a>
           <p class="calc__fine">Estimación orientativa sin portes. El precio final depende del lote disponible y del destino.</p>
         </form>
       </div>
     </section>
 
-    <!-- ===== TIKTOK ===== -->
+    <!-- ===== TIKTOK: mosaico ===== -->
     <section class="section" id="tiktok">
       <div class="container">
-        <header class="section__head section__head--row">
+        <header class="head">
           <div>
-            <p class="eyebrow reveal"><i class="ph-fill ph-tiktok-logo" aria-hidden="true"></i> @greennatura2026</p>
+            <p class="kicker reveal">06 · @greennatura2026</p>
             <h2 class="reveal">Tócalo antes<br>de comprarlo.</h2>
           </div>
-          <p class="section__lead reveal">En nuestros vídeos metemos la mano en cada lote para que veas la altura y la densidad reales. Más de 200 mil reproducciones lo avalan.</p>
+          <a class="btn btn--line reveal" href="https://www.tiktok.com/@greennatura2026" target="_blank" rel="noopener"><i class="ph ph-tiktok-logo" aria-hidden="true"></i> Ver el perfil</a>
         </header>
-        <div class="reels">
-          <a class="reel reveal" href="https://www.tiktok.com/@greennatura2026/video/7624119531556015362" target="_blank" rel="noopener"><img src="assets/img/modelo-45.webp" alt="Vídeo del nuevo modelo a 6 €/m²" loading="lazy" width="540" height="601"><span class="reel__views"><i class="ph-fill ph-play" aria-hidden="true"></i> 45,5 mil</span><span class="reel__cap">Nuevo modelo a 6 €/m²</span></a>
-          <a class="reel reveal" href="https://www.tiktok.com/@greennatura2026/video/7645423240516603158" target="_blank" rel="noopener"><img src="assets/img/modelo-40.webp" alt="Vídeo de la oferta a 4,50 €/m²" loading="lazy" width="1080" height="1133"><span class="reel__views"><i class="ph-fill ph-play" aria-hidden="true"></i> 33 mil</span><span class="reel__cap">Oferta a 4,50 €/m²</span></a>
-          <a class="reel reveal" href="https://www.tiktok.com/@greennatura2026/video/7627945534824779030" target="_blank" rel="noopener"><img src="assets/img/modelo-45-50.webp" alt="Vídeo de césped reciclado desde 4,90 €/m²" loading="lazy" width="1080" height="1498"><span class="reel__views"><i class="ph-fill ph-play" aria-hidden="true"></i> 29,1 mil</span><span class="reel__cap">Reciclado de 45/50 mm</span></a>
-          <a class="reel reveal" href="https://www.tiktok.com/@greennatura2026/video/7696979085884427542" target="_blank" rel="noopener"><img src="assets/img/hortaleza.webp" alt="Vídeo de la instalación deportiva de Hortaleza" loading="lazy" width="1080" height="1920"><span class="reel__views"><i class="ph-fill ph-play" aria-hidden="true"></i> 21 mil</span><span class="reel__cap">6.500 m² en Hortaleza</span></a>
-        </div>
-        <div class="center reveal">
-          <a class="btn btn--ghost" href="https://www.tiktok.com/@greennatura2026" target="_blank" rel="noopener"><i class="ph ph-tiktok-logo" aria-hidden="true"></i> Ver todos los vídeos</a>
+        <div class="mosaic">
+          <a class="clip clip--tall reveal" href="https://www.tiktok.com/@greennatura2026/video/7624119531556015362" target="_blank" rel="noopener"><img src="assets/img/modelo-45.webp" alt="Vídeo del nuevo modelo a 6 €/m²" loading="lazy" width="540" height="601"><span class="clip__views"><i class="ph-fill ph-play" aria-hidden="true"></i> 45,5 mil</span><span class="clip__cap">Nuevo modelo a 6 €/m²</span></a>
+          <a class="clip reveal" href="https://www.tiktok.com/@greennatura2026/video/7645423240516603158" target="_blank" rel="noopener"><img src="assets/img/modelo-40.webp" alt="Vídeo de la oferta a 4,50 €/m²" loading="lazy" width="1080" height="1133"><span class="clip__views"><i class="ph-fill ph-play" aria-hidden="true"></i> 33 mil</span><span class="clip__cap">Oferta a 4,50 €/m²</span></a>
+          <a class="clip reveal" href="https://www.tiktok.com/@greennatura2026/video/7627945534824779030" target="_blank" rel="noopener"><img src="assets/img/modelo-45-50.webp" alt="Vídeo de césped reciclado desde 4,90 €/m²" loading="lazy" width="1080" height="1498"><span class="clip__views"><i class="ph-fill ph-play" aria-hidden="true"></i> 29,1 mil</span><span class="clip__cap">Reciclado desde 4,90 €/m²</span></a>
+          <a class="clip clip--tall reveal" href="https://www.tiktok.com/@greennatura2026/video/7696979085884427542" target="_blank" rel="noopener"><img src="assets/img/hortaleza.webp" alt="Vídeo de la instalación deportiva de Hortaleza" loading="lazy" width="1080" height="1920"><span class="clip__views"><i class="ph-fill ph-play" aria-hidden="true"></i> 21 mil</span><span class="clip__cap">6.500 m² en Hortaleza</span></a>
+          <a class="clip reveal" href="https://www.tiktok.com/@greennatura2026/video/7625984941834112278" target="_blank" rel="noopener"><img src="assets/img/modelo-50.webp" alt="Vídeo de la nueva gama de 50 mm" loading="lazy" width="540" height="757"><span class="clip__views"><i class="ph-fill ph-play" aria-hidden="true"></i> 17,4 mil</span><span class="clip__cap">Nueva gama de 50 mm</span></a>
+          <a class="clip reveal" href="https://www.tiktok.com/@greennatura2026/video/7628727735539518742" target="_blank" rel="noopener"><img src="assets/img/instalacion-reciente.webp" alt="Vídeo de una instalación reciente" loading="lazy" width="1080" height="1124"><span class="clip__views"><i class="ph-fill ph-play" aria-hidden="true"></i> 15,3 mil</span><span class="clip__cap">Instalamos en toda España</span></a>
         </div>
       </div>
     </section>
 
-    <!-- ===== FAQ ===== -->
-    <section class="section section--tint" id="faq">
-      <div class="container faq">
-        <header class="faq__head">
-          <p class="eyebrow reveal">Preguntas frecuentes</p>
-          <h2 class="reveal">Lo que todo el mundo<br>nos pregunta.</h2>
-          <p class="section__lead reveal">¿No ves tu duda? Escríbenos y te respondemos en el día.</p>
-          <a class="btn btn--dark reveal" href="https://wa.me/34634287740" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Preguntar por WhatsApp</a>
+    <!-- ===== FAQ en dos columnas ===== -->
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <header class="head">
+          <div>
+            <p class="kicker reveal">07 · Preguntas frecuentes</p>
+            <h2 class="reveal">Lo que todo el mundo<br>nos pregunta.</h2>
+          </div>
+          <a class="btn btn--line reveal" href="https://wa.me/34634287740" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Preguntar por WhatsApp</a>
         </header>
-        <div class="faq__list">
-          <details class="qa reveal" open>
-            <summary>¿Qué es exactamente el césped artificial reciclado?</summary>
-            <p>Es césped que ya se ha usado, normalmente en instalaciones deportivas, y que se retira cuando se renueva el campo. Seleccionamos los lotes que conservan buen color y densidad, y los vendemos cortados a la medida que necesitas.</p>
-          </details>
-          <details class="qa reveal">
-            <summary>¿Cómo funciona el pago contrarreembolso?</summary>
-            <p>Confirmamos el pedido por WhatsApp y te lo enviamos. Pagas al transportista cuando lo recibes en casa, sin adelantar nada.</p>
-          </details>
-          <details class="qa reveal">
-            <summary>¿Enviáis a toda España?</summary>
-            <p>Sí, enviamos a cualquier provincia peninsular. Los portes dependen del destino y de los metros, por eso te los incluimos en el presupuesto antes de cerrar nada.</p>
-          </details>
-          <details class="qa reveal">
-            <summary>¿También lo instaláis?</summary>
-            <p>Sí. Instalamos tanto jardines particulares como campos deportivos. El césped nuevo instalado parte de 15 €/m². Para el reciclado instalado te damos precio según metros y estado del terreno.</p>
-          </details>
-          <details class="qa reveal">
-            <summary>¿Cuántos metros tengo que pedir?</summary>
-            <p>Multiplica largo por ancho y suma entre un 5 y un 10 % para recortes y uniones. Si nos mandas una foto con las medidas te decimos el corte exacto de rollos para que no sobre.</p>
-          </details>
-          <details class="qa reveal">
-            <summary>¿Puedo instalarlo yo mismo?</summary>
-            <p>Claro. Necesitas el terreno limpio y compactado, malla antihierbas, banda y cola de unión y, si quieres, arena de sílice para asentar la fibra. Te mandamos los pasos por WhatsApp y tienes el vídeo de una instalación completa en nuestro perfil.</p>
-          </details>
-          <details class="qa reveal">
-            <summary>¿Es apto para perros y niños?</summary>
-            <p>Sí. Drena el agua, no se embarra y se limpia con la manguera. Para zonas de mucho uso te recomendamos los modelos más densos, de 40/45 mm.</p>
-          </details>
-          <details class="qa reveal">
-            <summary>¿Qué mantenimiento necesita?</summary>
-            <p>Un cepillado a contrapelo de vez en cuando para levantar la fibra, retirar hojas y un manguerazo en verano. Nada de riego, siega ni abono.</p>
-          </details>
-          <details class="qa reveal">
-            <summary>¿Por qué cambian los precios del reciclado?</summary>
-            <p>Porque llega por lotes de distintos campos. Cada partida tiene su altura, su color y su cantidad, y cuando se agota entra otra. Por eso siempre te enseñamos el lote real antes de comprar.</p>
-          </details>
+        <div class="faq">
+          <details class="qa reveal" open><summary>¿Qué es exactamente el césped artificial reciclado?</summary><p>Es césped que ya se ha usado, normalmente en instalaciones deportivas, y que se retira cuando se renueva el campo. Seleccionamos los lotes que conservan buen color y densidad, y los vendemos cortados a la medida que necesitas.</p></details>
+          <details class="qa reveal"><summary>¿Cómo funciona el pago contrarreembolso?</summary><p>Confirmamos el pedido por WhatsApp y te lo enviamos. Pagas al transportista cuando lo recibes en casa, sin adelantar nada.</p></details>
+          <details class="qa reveal"><summary>¿Enviáis a toda España?</summary><p>Sí, enviamos a cualquier provincia peninsular. Los portes dependen del destino y de los metros, por eso te los incluimos en el presupuesto antes de cerrar nada.</p></details>
+          <details class="qa reveal"><summary>¿También lo instaláis?</summary><p>Sí. Instalamos jardines particulares y campos deportivos. El césped nuevo instalado parte de 15 €/m². Para el reciclado instalado te damos precio según metros y estado del terreno.</p></details>
+          <details class="qa reveal"><summary>¿Cuántos metros tengo que pedir?</summary><p>Multiplica largo por ancho y suma entre un 5 y un 10 % para recortes y uniones. Si nos mandas una foto con las medidas te decimos el corte exacto de rollos.</p></details>
+          <details class="qa reveal"><summary>¿Puedo instalarlo yo mismo?</summary><p>Claro. Necesitas el terreno limpio y compactado, malla antihierbas, banda y cola de unión y, si quieres, arena de sílice. Te mandamos los pasos por WhatsApp.</p></details>
+          <details class="qa reveal"><summary>¿Es apto para perros y niños?</summary><p>Sí. Drena el agua, no se embarra y se limpia con la manguera. Para zonas de mucho uso te recomendamos los modelos de 40/45 mm.</p></details>
+          <details class="qa reveal"><summary>¿Por qué cambian los precios del reciclado?</summary><p>Porque llega por lotes de distintos campos. Cada partida tiene su altura, su color y su cantidad. Por eso siempre te enseñamos el lote real antes de comprar.</p></details>
         </div>
       </div>
     </section>
 
-    <!-- ===== CONTACTO ===== -->
-    <section class="section section--dark" id="contacto">
+    <!-- ===== CONTACTO: gran banda con el teléfono ===== -->
+    <section class="section contact-band" id="contacto">
       <div class="container contact">
         <div class="contact__copy">
-          <p class="eyebrow eyebrow--light reveal">Contacto</p>
-          <h2 class="reveal">Tu presupuesto,<br>hoy mismo.</h2>
-          <p class="section__lead reveal">Rellena cuatro datos y se abrirá WhatsApp con el mensaje listo. Sin registros ni formularios eternos.</p>
+          <p class="kicker reveal">08 · Contacto</p>
+          <h2 class="reveal">Llama o escribe.<br>Presupuesto hoy.</h2>
+          <a class="bigtel reveal" href="tel:+34634287740">634 287 740</a>
           <ul class="contact__list reveal">
-            <li><i class="ph ph-phone" aria-hidden="true"></i><a href="tel:+34634287740">634 287 740</a></li>
             <li><i class="ph ph-whatsapp-logo" aria-hidden="true"></i><a href="https://wa.me/34634287740" target="_blank" rel="noopener">WhatsApp directo</a></li>
             <li><i class="ph ph-tiktok-logo" aria-hidden="true"></i><a href="https://www.tiktok.com/@greennatura2026" target="_blank" rel="noopener">@greennatura2026</a></li>
             <li><i class="ph ph-user" aria-hidden="true"></i><span>José Márquez Luna</span></li>
@@ -519,32 +405,13 @@
         </div>
 
         <form class="form reveal" id="contact-form" novalidate>
-          <label class="field">
-            <span>Nombre</span>
-            <input type="text" name="nombre" autocomplete="given-name" required placeholder="Lucía">
-            <em class="field-msg">Dinos cómo te llamas.</em>
-          </label>
-          <label class="field">
-            <span>Localidad</span>
-            <input type="text" name="localidad" autocomplete="address-level2" required placeholder="Dos Hermanas, Sevilla">
-            <em class="field-msg">Necesitamos la localidad para calcular portes.</em>
-          </label>
+          <p class="form__title">O déjanos tus datos y se abre WhatsApp con el mensaje listo</p>
+          <label class="field"><span>Nombre</span><input type="text" name="nombre" autocomplete="given-name" required placeholder="Lucía"><em class="field-msg">Dinos cómo te llamas.</em></label>
+          <label class="field"><span>Localidad</span><input type="text" name="localidad" autocomplete="address-level2" required placeholder="Dos Hermanas, Sevilla"><em class="field-msg">Necesitamos la localidad para calcular portes.</em></label>
           <div class="field-row">
-            <label class="field">
-              <span>Metros aprox.</span>
-              <input type="number" inputmode="decimal" name="metros" min="1" placeholder="45" required>
-              <em class="field-msg">Indica los m² aproximados.</em>
-            </label>
-            <label class="field">
-              <span>Uso</span>
-              <select name="uso">
-                <option>Jardín</option>
-                <option>Terraza o balcón</option>
-                <option>Piscina</option>
-                <option>Mascotas</option>
-                <option>Zona infantil</option>
-                <option>Campo deportivo</option>
-              </select>
+            <label class="field"><span>Metros aprox.</span><input type="number" inputmode="decimal" name="metros" min="1" placeholder="45" required><em class="field-msg">Indica los m² aproximados.</em></label>
+            <label class="field"><span>Uso</span>
+              <select name="uso"><option>Jardín</option><option>Terraza o balcón</option><option>Piscina</option><option>Mascotas</option><option>Zona infantil</option><option>Campo deportivo</option></select>
             </label>
           </div>
           <fieldset class="seg">
@@ -552,29 +419,26 @@
             <label><input type="radio" name="servicio" value="Solo el césped, con envío" checked><span>Solo césped</span></label>
             <label><input type="radio" name="servicio" value="Césped con instalación"><span>Con instalación</span></label>
           </fieldset>
-          <label class="field">
-            <span>Comentarios (opcional)</span>
-            <textarea name="mensaje" rows="3" placeholder="Prefiero el de 50 mm, tengo perro…"></textarea>
-          </label>
-          <button class="btn btn--leaf btn--block btn--lg" type="submit"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Abrir WhatsApp con mi solicitud</button>
+          <label class="field"><span>Comentarios (opcional)</span><textarea name="mensaje" rows="3" placeholder="Prefiero el de 50 mm, tengo perro…"></textarea></label>
+          <button class="btn btn--lime btn--block btn--lg" type="submit"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i> Abrir WhatsApp con mi solicitud</button>
           <p class="form__fine">Tus datos no se guardan en esta web: solo se escriben en el mensaje que tú decides enviar. <a href="privacidad.html">Privacidad</a></p>
         </form>
       </div>
     </section>
   </main>
 
-  <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="container footer__grid">
       <div class="footer__brand">
-        <img src="assets/img/logo-full.webp" alt="GREENNATURA, venta e instalación de césped artificial" width="420" height="290" loading="lazy">
+        <p class="footer__word">GREENNATURA</p>
+        <p>Venta e instalación de césped artificial nuevo y reciclado. Envíos a toda España y pago contrarreembolso.</p>
       </div>
       <div>
         <h4>Navegación</h4>
         <ul>
-          <li><a href="#modelos">Modelos y precios</a></li>
+          <li><a href="#carta">Lista de precios</a></li>
           <li><a href="#reciclado">Por qué reciclado</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#obras">Obras</a></li>
           <li><a href="#calculadora">Calculadora</a></li>
           <li><a href="#faq">Preguntas frecuentes</a></li>
         </ul>
@@ -605,6 +469,6 @@
     <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i>
   </a>
 
-  <script src="main.js?v=20261021-v1" defer></script>
+  <script src="main.js?v=20261021-v1b" defer></script>
 </body>
 </html>
